@@ -10,14 +10,10 @@ function App() {
     WebApp.ready();
   },[]);
 
-  const onClose = () => {
-      WebApp.close()
-  }
-
   return (
 
     <div className="App">
-        <button onClick={onClose}>Закрыть</button>
+        <button>Закрыть</button>
     </div>
   );
 }
