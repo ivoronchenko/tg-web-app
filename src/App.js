@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import './App.css';
 import WebApp from '@twa-dev/sdk';
+import Header from './components/Header/Header';
 
 
 
@@ -13,7 +14,7 @@ function App() {
   return (
 
     <div className="App">
-        <button>Закрыть</button>
+       <Header/>
     </div>
   );
 }
